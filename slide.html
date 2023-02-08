@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Picture Slider</title>
+    <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    
+<div class="container">
+<div class="swiper">
+    <h2>For Workers</h2>
+  <div class="swiper-wrapper">
+      
+    <div class="swiper-slide"><img src="1.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="2.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="3.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="4.jpg" alt=""></div>
+      
+      
+  </div>
+    
+  <div class="swiper-pagination"></div>
+
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+    
+</div>
+    
+<div class="container">
+<div class="swiper">
+    <center><h2>For Citizen</h2></center>
+  <div class="swiper-wrapper">
+
+    <div class="swiper-slide"><img src="a.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="b.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="c.jpg" alt=""></div>
+     <div class="swiper-slide"><img src="d.jpg" alt=""></div>
+      
+      
+  </div>
+    
+  <div class="swiper-pagination"></div>
+
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+    
+</div>
+    
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    
+<script>
+    const swiper = new Swiper('.swiper', {
+  
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+    
+    
+</script>
+    
+<center>
+    <a href="what.html" class="btn">Back</a>
+</center>
+    
+</body>
+</html>

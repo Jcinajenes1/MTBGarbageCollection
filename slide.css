@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 120vh;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+.container .swiper h2{
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.swiper{
+    width: 20%;
+    height: 115vh;
+    
+    
+}
+.swiper-slide img{
+    width: 300px;
+    padding-top: 20px;
+
+    
+}
+.btn{
+    background-color: black;
+    color: wheat;
+    text-decoration-color: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    
+}

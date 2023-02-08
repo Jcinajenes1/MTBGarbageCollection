@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+   background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+     background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+.section{
+    border: 10px solid grey;
+    height: 90vh;
+}
+.info{
+    border: 10px;
+    color: white;
+}
+.style{
+    max-width: 800px;
+    margin: auto;
+    height: 15vh;
+}
+.a{
+    font-size: 20px;
+}
+.btn{
+    background-color: black;
+    color: wheat;
+    text-decoration-color: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    

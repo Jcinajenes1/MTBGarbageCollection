@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Picture Slider</title>
+    <link rel="stylesheet" href="shed.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    
+<div class="container">
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="waste/1.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="waste/2.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="waste/3.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="waste/4.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="waste/5.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="waste/6.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="waste/7.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="waste/8.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="waste/9.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="waste/10.jpg" alt=""></div>
+      
+  </div>
+    
+  <div class="swiper-pagination"></div>
+
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+    
+</div>
+    
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    
+<script>
+    const swiper = new Swiper('.swiper', {
+
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+    
+    
+</script>
+    <center>
+    <a href="what.html" class="btn">Back</a>
+</center>
+ 
+    
+</body>
+</html>
