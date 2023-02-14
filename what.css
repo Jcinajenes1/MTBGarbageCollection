@@ -5,10 +5,24 @@
 }
 .back{
     width: 100%;
-    height: 270vh;
+    padding: 0;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
     background-size: cover;
     background-position: center;
+}
+section{
+    padding: 100px 0 100px 0;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+h2{
+    color: aliceblue;
+    text-align: center;
+    
 }
 .bar{
     width: 85%;
@@ -32,6 +46,7 @@
     text-decoration: none;
     color: white;
     text-transform: uppercase;
+    font-size: clamp(0.625rem, -0.5469rem + 3.75vw, 1.5625rem);
 }
 .bar ul li::after{
     content: '';
@@ -46,18 +61,33 @@
 .bar ul li:hover::after{
     width: 100%;
 }
-
+.img img{
+    width: 400px;
+    height: 50vh;
+}
 .img a{
     padding: 5px;
     color: white;
-    
-    
 }
-
+.start{
+    max-width: 500px;
+    text-align: center;
+}
 .start .game h2{    
     font-family: cursive;
   font-size: 52px;
   margin-bottom: 70px;
   text-align: center;
     padding-top: 50px;
+}
+
+
+@media screen and(max-width: 900px){
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
