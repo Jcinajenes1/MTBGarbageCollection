@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 .container{
     width: 100%;
@@ -9,23 +10,24 @@
    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
      background-size: cover;
     background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 15px;
+    padding: 100px;
 }
-.section{
+section{
+    color: aliceblue;
+    display: block;
     border: 10px solid grey;
-    height: 90vh;
 }
 .info{
     border: 10px;
     color: white;
 }
 .style{
-    max-width: 800px;
-    margin: auto;
-    height: 15vh;
+    color: #ffffff;
+    padding: 10px;
+}
+.style p{
+    text-align: justify;
+    max-width: 700px;
 }
 .a{
     font-size: 20px;
@@ -38,4 +40,10 @@
     font-weight: bold;
     padding: 10px 25px;
     border-radius: 30px;
-    
+}
+
+@media only screen and (max-width: 900px){
+    .container{
+        padding: 10px;
+    }
+}
